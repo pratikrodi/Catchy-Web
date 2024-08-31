@@ -3,7 +3,7 @@
   - Database Server: PostgreSQL 12.3
   
 **How to run:**
- - Clone the [github repo](https://github.com/Subangkar/Foodsquare-Web-App)
+ - Clone the [github repo](https://github.com/pratikrodi/Catchy-Web.git)
 
  -  **Python Environment/Database setup**
      - install postgres database
@@ -27,14 +27,18 @@
      python3 manage.py runserver
      ```
      - now browse the site at http://localhost:8000/ 
-     - **N.B.** a facebook login app needs to be set up & its credentials are to be addded into database properly to access login pages.  
        For ease, an app is created & its credentials are provided into a dumped json file which can be loaded into the database using:
      ```shell
      python3 manage.py loaddata data.json
      ```
- - **N.B.** Facebook/Google login may not work properly as those login apps credentials might be outdated now.          
-          
-          
+
+**How to create a super user:**
+   ```shell
+     python manage.py runserver
+   ```
+ - follow the prompt steps after the command
+
+
 **Some Basic Functionalities Implemented:**
 - User Session Handling
 - Third Party Authentication
@@ -45,8 +49,14 @@
 - Review-Rating Management
 
 
-
 ***
 
+**Images**
+![img.png](img.png)
 
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
 
